@@ -1,0 +1,57 @@
+/* tableStyles.css */
+.table-container {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.table-container th,
+.table-container td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.table-container th {
+  background-color: #f2f2f2;
+}
+
+.input-box {
+  padding: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.save-button,
+.add-button {
+  position: absolute;
+  top: 5%;
+  right: 3%;
+  width: 120px;
+  transform: translateY(-50%);
+}
+
+.save-button {
+  margin-right: 10px;
+}
+
+.add-button {
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}
+.action {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.size {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
